@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adaugare Student</title>
+  </head>
+  <body>
+    <h2>Adaugare Student Nou</h2>
+    <form action="adauga_student.php" method="post">
+      <label for="nume">Nume:</label>
+      <input type="text" id="nume" name="nume" required /><br />
+
+      <label for="prenume">Prenume:</label>
+      <input type="text" id="prenume" name="prenume" required /><br />
+
+      <label for="idnp">IDNP:</label>
+      <input type="text" id="idnp" name="idnp" required /><br />
+
+      <label for="dataNastere">Data nasterii:</label>
+      <input type="date" id="dataNastere" name="dataNastere" required /><br />
+
+      <label for="medii">Medii (8 valori separate prin virgula):</label>
+      <input type="text" id="medii" name="medii" required /><br />
+
+      <label for="grupa">Grupa:</label>
+      <input type="text" id="grupa" name="grupa" required /><br />
+
+      <label for="absenteMot">Absente motivate:</label>
+      <input type="number" id="absenteMot" name="absenteMot" required /><br />
+
+      <label for="absenteNemot">Absente nemotivate:</label>
+      <input
+        type="number"
+        id="absenteNemot"
+        name="absenteNemot"
+        required
+      /><br />
+
+      <input type="submit" value="Adauga Student" />
+    </form>
+  </body>
+</html>

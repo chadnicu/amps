@@ -1,1 +1,1 @@
-# amps
+# Asistenta in managementul produselor software
